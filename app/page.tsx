@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button"; 
+import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   FaInstagram,
@@ -82,9 +82,18 @@ export default function JoyApparelLinktree() {
 
         {/* Secondary Buttons */}
         {[
-          { label: "Bulks Production", href: "https://api.whatsapp.com/message/KISWF3RQC5QYP1?autoload=1&app_absent=0" },
-          { label: "Custom Orders", href: "https://api.whatsapp.com/message/KISWF3RQC5QYP1?autoload=1&app_absent=0" },
-          { label: "Fashion Training", href: "https://api.whatsapp.com/message/KISWF3RQC5QYP1?autoload=1&app_absent=0" },
+          {
+            label: "Bulks Production",
+            href: "https://api.whatsapp.com/message/KISWF3RQC5QYP1?autoload=1&app_absent=0",
+          },
+          {
+            label: "Custom Orders",
+            href: "https://api.whatsapp.com/message/KISWF3RQC5QYP1?autoload=1&app_absent=0",
+          },
+          {
+            label: "Fashion Training",
+            href: "https://api.whatsapp.com/message/KISWF3RQC5QYP1?autoload=1&app_absent=0",
+          },
           {
             label: "Book a Consultation",
             href: "https://wa.me/c/2348079975733",
@@ -122,23 +131,38 @@ export default function JoyApparelLinktree() {
                 alt="Featured Dress"
                 width={600}
                 height={400}
-                className="w-full  object-cover"
+                className="w-full  object-cover md:h-72"
               />
               <div className="p-4">
                 <h3 className="font-semibold text-lg text-amber-900 mb-1">
-                  The 'Adire' Silk Gown
+                  The Delight Two Piece
                 </h3>
-                <p className="text-sm text-neutral-600 mb-3">
-                  A stunning blend of tradition and modern elegance. Perfect for
-                  any occasion.
-                </p>
+                <ul className="text-sm text-neutral-600 mb-3 list-disc list-inside space-y-1">
+                  <li>It’s a two-piece set.</li>
+                  <li>Available in different colors.</li>
+                  <li>Fabric is of high quality.</li>
+                  <li>
+                  You can order in different color combinations (mixing two
+                  colors together).
+                  </li>
+                  <li>
+                  Option to make the skirt longer (additional cost applies).
+                  </li>
+                  {/* <li>
+                  Price: <span className="font-medium">₦32,000</span> or{" "}
+                  <span className="font-medium">$20</span> (Note: Dollar price
+                  may vary based on the exchange rate).
+                  </li> */}
+                </ul>
                 <Button
                   size="sm"
                   variant="outline"
                   className="border-amber-700 text-amber-800 hover:bg-amber-50 w-full"
                   asChild
                 >
-                  <Link href="https://api.whatsapp.com/message/KISWF3RQC5QYP1?autoload=1&app_absent=0">View Details</Link>
+                  <Link href="https://api.whatsapp.com/message/KISWF3RQC5QYP1?autoload=1&app_absent=0">
+                    View Details
+                  </Link>
                 </Button>
               </div>
             </CardContent>
@@ -155,19 +179,34 @@ export default function JoyApparelLinktree() {
               />
               <div className="p-4">
                 <h3 className="font-semibold text-lg text-amber-900 mb-1">
-                  Chic Ankara Print Top
+                  The Poise Dress
                 </h3>
-                <p className="text-sm text-neutral-600 mb-3">
-                  Vibrant and versatile, pair it with jeans or a skirt for a
-                  standout look.
-                </p>
+                <ul className="text-sm text-neutral-600 mb-3 list-disc list-inside space-y-1">
+                  <li>It’s a Gown.</li>
+                  <li>Available in different colors.</li>
+                  <li>Fabric is of high quality.</li>
+                  <li>
+                  You can order in different color combinations (mixing two
+                  colors together).
+                  </li>
+                  <li>
+                  Option to make the skirt longer (additional cost applies).
+                  </li>
+                  {/* <li>
+                  Price: <span className="font-medium">₦32,000</span> or{" "}
+                  <span className="font-medium">$20</span> (Note: Dollar price
+                  may vary based on the exchange rate).
+                  </li> */}
+                </ul>
                 <Button
                   size="sm"
                   variant="outline"
                   className="border-amber-700 text-amber-800 hover:bg-amber-50 w-full"
                   asChild
                 >
-                  <Link href="https://wa.me/p/23926239800312765/2348079975733">View Details</Link>
+                  <Link href="https://wa.me/p/23926239800312765/2348079975733">
+                    View Details
+                  </Link>
                 </Button>
               </div>
             </CardContent>
@@ -179,11 +218,10 @@ export default function JoyApparelLinktree() {
       <div className="w-full max-w-md mt-12 text-center px-4">
         <FaQuoteLeft className="text-3xl text-amber-300 mx-auto mb-2" />
         <p className="text-neutral-700 italic leading-relaxed">
-          "Absolutely in love with my custom dress from JoyApparel! The quality
-          and fit are perfect. Highly recommend!"
+          "I saw the dresses. You're blessed, your hands got the sewing anointing. I will definitely come again."
         </p>
         <p className="mt-2 font-medium text-sm text-amber-800">
-          - Happy Customer
+          - Mrs grace
         </p>
       </div>
 
@@ -212,9 +250,7 @@ export default function JoyApparelLinktree() {
           </a>
           <span>📞-07047688368</span>
         </p>
-        <p className="mt-1">Made with 💛 by Devben</p>
-        {/* Optional: Keep or remove the 'Powered by' line */}
-        {/* <p className="mt-1">Powered by DevBen ✨</p> */}
+        <p className="mt-1">Made with 💛 by <a className="underline" href="https://www.instagram.com/devben.tech/">Devben</a></p>
         <p className="mt-2">
           Copyright © {new Date().getFullYear()} JoyApparel. All Rights
           Reserved.
