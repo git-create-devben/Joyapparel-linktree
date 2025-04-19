@@ -142,11 +142,11 @@ export default function JoyApparelLinktree() {
                   <li>Available in different colors.</li>
                   <li>Fabric is of high quality.</li>
                   <li>
-                  You can order in different color combinations (mixing two
-                  colors together).
+                    You can order in different color combinations (mixing two
+                    colors together).
                   </li>
                   <li>
-                  Option to make the skirt longer (additional cost applies).
+                    Option to make the skirt longer (additional cost applies).
                   </li>
                   {/* <li>
                   Price: <span className="font-medium">₦32,000</span> or{" "}
@@ -186,11 +186,11 @@ export default function JoyApparelLinktree() {
                   <li>Available in different colors.</li>
                   <li>Fabric is of high quality.</li>
                   <li>
-                  You can order in different color combinations (mixing two
-                  colors together).
+                    You can order in different color combinations (mixing two
+                    colors together).
                   </li>
                   <li>
-                  Option to make the skirt longer (additional cost applies).
+                    Option to make the skirt longer (additional cost applies).
                   </li>
                   {/* <li>
                   Price: <span className="font-medium">₦32,000</span> or{" "}
@@ -218,20 +218,21 @@ export default function JoyApparelLinktree() {
       <div className="w-full max-w-md mt-12 text-center px-4">
         <FaQuoteLeft className="text-3xl text-amber-300 mx-auto mb-2" />
         <p className="text-neutral-700 italic leading-relaxed">
-          "I saw the dresses. You're blessed, your hands got the sewing anointing. I will definitely come again."
+          "I saw the dresses. You're blessed, your hands got the sewing
+          anointing. I will definitely come again."
         </p>
-        <p className="mt-2 font-medium text-sm text-amber-800">
-          - Mrs grace
-        </p>
+        <p className="mt-2 font-medium text-sm text-amber-800">- Mrs grace</p>
       </div>
 
       {/* About Section */}
       <div className="max-w-md mt-12 text-center text-neutral-600 text-base leading-relaxed">
         <h3 className="text-xl font-semibold text-amber-800 mb-3">About Us</h3>
         <p>
-          Founded by Joy, a passionate fashion designer based in Lagos, Nigeria.
-          She crafts timeless, modern fits inspired by culture, class, and
-          creativity.
+          Joy Apparel is a modest‑fashion brand that believes true modesty is
+          the cutest style. We design elegant, timeless pieces that empower
+          women to feel confident and classy by beautifully covering every
+          detail. Our goal is to become the world’s leading modest‑fashion
+          label.
         </p>
         <p className="mt-3 font-medium">
           📍 Lagos | 🌍 Worldwide Shipping Available
@@ -250,7 +251,15 @@ export default function JoyApparelLinktree() {
           </a>
           <span>📞-07047688368</span>
         </p>
-        <p className="mt-1">Made with 💛 by <a className="underline" href="https://www.instagram.com/devben.tech/">Devben</a></p>
+        <p className="mt-1">
+          Made with 💛 by{" "}
+          <a
+            className="underline"
+            href="https://www.instagram.com/devben.tech/"
+          >
+            Devben
+          </a>
+        </p>
         <p className="mt-2">
           Copyright © {new Date().getFullYear()} JoyApparel. All Rights
           Reserved.
